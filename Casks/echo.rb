@@ -12,12 +12,6 @@ cask "echo" do
 
   app "Echo.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Echo.app"],
-                   sudo: true
-  end
-
   zap trash: [
     "~/Library/Application Support/Echo",
     "~/Library/Preferences/com.apopen.echo.plist",
