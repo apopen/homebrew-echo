@@ -15,7 +15,7 @@ cask "echo" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Echo.app"],
-                   sudo: false
+                   sudo: true
   end
 
   zap trash: [
