@@ -1,6 +1,6 @@
 cask "echo" do
-  version "0.0.12"
-  sha256 "d63503d4d1484fa8740bfe734a003d5ee6d6d17c66be6ac430b72ab5c03095c5"
+  version "0.0.13"
+  sha256 "5141a5cc219d0f9eb0ea7c812fda5eb614eaa4bc9ec0daae8b024c8b6f673c2d"
 
   url "https://github.com/apopen/echo/releases/download/v#{version}/Echo-v#{version}-macos-arm64.zip"
   name "Echo"
